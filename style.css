@@ -1,0 +1,179 @@
+@import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.main {
+  width: 100%;
+  height: 65vh;
+  position: relative;
+}
+.top {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  position: absolute;
+}
+.main-picture {
+  height: 100%;
+  width: 60%;
+}
+.right-side {
+  padding: 8%;
+}
+.nav-content {
+  position: absolute;
+  display: flex;
+  padding: 2%;
+  width: 35%;
+  /* background-color: rebeccapurple; */
+  color: hsl(0, 0%, 100%);
+  justify-content: space-around;
+  margin-top: 1%;
+}
+li {
+  list-style: none;
+  font-family: "League Spartan", sans-serif;
+  font-optical-sizing: auto;
+}
+.font-name {
+  font-family: "League Spartan", sans-serif;
+  font-optical-sizing: auto;
+}
+.right-title {
+  font-size: 2.5rem;
+  text-transform: capitalize;
+}
+.shop-button {
+  display: flex;
+  width: 50%;
+  /* background-color: rebeccapurple; */
+  justify-content: space-around;
+}
+.shop {
+  letter-spacing: 0.4rem;
+  word-spacing: 0.5rem;
+  font-weight: 600;
+}
+.right-para {
+  opacity: 70%;
+  line-height: 1.4;
+}
+.room-title {
+  font-weight: 400;
+}
+.main-down {
+  display: flex;
+  width: 100%;
+  height: 35vh;
+}
+.middle-content {
+  /* width: 90%; */
+  height: 100%;
+  padding: 3%;
+}
+.left-img {
+  height: 100%;
+}
+.right-img {
+  height: 100%;
+}
+.mid-head {
+  letter-spacing: 0.3rem;
+  text-transform: uppercase;
+  font-size: 1rem;
+  font-weight: 800;
+}
+.mid-para {
+  line-height: 1.2rem;
+  opacity: 70%;
+  word-spacing: 0.1rem;
+}
+a{
+  text-decoration: none;
+  color:white;
+}
+@media (max-width:600px){
+  .top{
+    flex-direction: column;
+  }
+  .right-side{
+    padding: 5%;
+  }
+  .main-picture{
+    width: 100%;
+  }
+  .main{
+    height: 100vh;
+  }
+  .main-down{
+    height: 60vh;
+  }
+  .main-down{
+    flex-direction: column;
+  }
+  .left-img{
+    width: 100%;
+  }
+  .middle-content{
+    width: 100%;
+    padding: 5%;
+  }
+  .right-img{
+    width: 100%;
+  }
+  .right-title{
+    font-size: 2rem;
+  }
+  .right-para{
+    font-size: 0.9rem;
+  }
+  .mid-para{
+    font-size: 0.9rem;
+  }
+  .shop{
+    font-size: 0.8rem;
+  }
+  .shop-button{
+    width: 30%;
+  }
+  .arrow{
+    width: 50%;
+    /* background-color: rebeccapurple; */
+  }
+  .nav-content{
+    width: 100%;
+  }
+}
+@media (min-width:601px) and (max-width:900px){
+  .right-side {
+    padding: 3%;
+  }
+  .left-img{
+    width: 100%;
+  }
+  .middle-content{
+    width: 100%;
+  }
+  .right-img{
+    width: 100%;
+  }
+  
+}
+@media (min-width:901px) and (max-width:1100px){
+  .right-side {
+    padding: 5%;
+  }
+  .left-img{
+    width: 100%;
+  }
+  .middle-content{
+    width: 100%;
+  }
+  .right-img{
+    width: 100%;
+  }
+  
+}
